@@ -24,7 +24,7 @@ const Blogs=()=>{
         {
             img: leetcode2,
             head: "You Are Doomed If You Get these Questions in an Interview",
-            desc: "During my journey with Leetcode, I stumbled upon a collection of questions that are famously challenging and require dedicated practice to conquer. These problems often test not just coding skills but also problem-solving creativity and resilience. If you're up for a challenge, explore these Leetcode questions and see how they stretch your abilities.<br/><br/> Feel free to dive into the challenges here, and discover why these questions can make or break your coding interview preparations.",
+            desc: "During my journey with Leetcode, I stumbled upon a collection of questions that are famously challenging and require dedicated practice to conquer. These problems often test not just coding skills but also problem-solving creativity and resilience. If you're up for a challenge, explore these Leetcode questions and see how they stretch your abilities.<br/><br/> Feel free to dive into the challenges <a href='https://leetcode.com/problem-list/o10qntr1/' target='_blank' rel='noopener noreferrer' style='text-decoration: none; font-size: inherit; color: var(--orange);'>here</a>, and discover why these questions can make or break your coding interview preparations.",
         },
     ]
     return (
