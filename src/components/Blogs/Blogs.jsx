@@ -5,12 +5,18 @@ import 'swiper/css';
 import coding1 from '../../img/coding1.jpg';
 import leetcode from '../../img/leetcode.png';
 import leetcode2 from '../../img/leetcode2.jpg';
+import myntra from '../../img/myntra.jpg';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 const Blogs=()=>{
     const theme=useContext(themeContext);
     const darkMode=theme.state.darkMode;
     const blog=[
+        {
+           img: myntra,
+           head: "My Myntra hackerramp Experience",
+           desc: "Participating in the Myntra HackerRamp, I knew standing out would be no easy feat. My challenge was to create an AI fashion generator that could revolutionize customer engagement while optimizing inventory management. It wasn’t long before the weight of the task hit me—late nights were spent refining prompts, debugging code, and ensuring my solution aligned perfectly with Myntra's needs.<br/><br/> Looking back, the journey to the pre-finale was nothing short of a rollercoaster. From brainstorming innovative concepts to rapid prototyping and presenting my ideas under tight deadlines, every stage pushed me to my limits. Making it to the top 70 teams felt like a huge win."
+        },
         {
             img: coding1,
             head: "My Failed Attempt at Learning Dev",

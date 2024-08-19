@@ -18,7 +18,7 @@ const Services=()=>{
                <span style={{color: darkMode ? 'white' : '',}}>About</span>
                <span>I am pursuing a BTech in Computer Science from IET Lucknow.<br/>I am eager to apply my skills and contribute to innovative projects.
                 </span>
-                <a href={Resume} download><button className='button s-button'>Download Resume</button></a>
+                <a href="https://docs.google.com/document/d/1PU0Ut0uiKhfBgLedOKo9ctt7akHVQdmTZv6Pg2nn0PQ/edit?usp=sharing" download><button className='button s-button'>Download Resume</button></a>
                 <div className='blur s-blur1' style={{background: 'rgb(193,253,254'}}></div>
             </div>
 

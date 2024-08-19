@@ -8,12 +8,26 @@ import grievease from '../../img/grievease.png';
 import heart from '../../img/heart.png';
 import weather from '../../img/weather.png';
 import ivr from '../../img/ivr.png';
+import fashion from '../../img/fashion.png';
+import fashion2 from '../../img/fashion2.png';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 const Projects=()=>{
     const theme=useContext(themeContext);
     const darkMode=theme.state.darkMode;
     const project=[
+        {
+            img: fashion2,
+            head: "Hype Fashion Community",
+            desc: "Welcome to Hype - a community of fashion enthusiasts! Generate stunning fashion designs using AI-powered Stable Diffusion API. Share your creations with the community and show your love for others' designs through likes and comments.",
+            link: "https://fashion-community-app-frontend.onrender.com/list",
+        },
+        {
+            img: fashion,
+            head: "Fashion AI",
+            desc: "A React-based web app that uses the Hugging Face Stable Diffusion API for image generation. Enter prompts to generate and download unique fashion designs.",
+            link: "https://fashionai-nv8w.onrender.com/",
+        },
         {
             img: vacation,
             head: "WanderVerse",
