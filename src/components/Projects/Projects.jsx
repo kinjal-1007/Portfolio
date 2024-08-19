@@ -19,7 +19,7 @@ const Projects=()=>{
         {
             img: fashion2,
             head: "Hype Fashion Community",
-            desc: "Welcome to Hype - a community of fashion enthusiasts! Generate stunning fashion designs using AI-powered Stable Diffusion API. Share your creations with the community and show your love for others' designs through likes and comments.",
+            desc: "Welcome to Hype! Generate stunning fashion designs using AI. Share your creations with the community and show your love for others' designs through likes and comments.",
             link: "https://fashion-community-app-frontend.onrender.com/list",
         },
         {
